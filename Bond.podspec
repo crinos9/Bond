@@ -18,14 +18,18 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Srdan Rasic" => "srdan.rasic@gmail.com" }
   s.social_media_url   = "http://twitter.com/srdanrasic"
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.10"
   s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
   s.source       = { :git => "https://github.com/SwiftBond/Bond.git", :tag => "v5.2.0" }
   s.source_files  = 'Sources/**/*.swift', 'Bond/*.{h,m,swift}'
   s.ios.exclude_files = "Sources/AppKit"
   s.tvos.exclude_files = "Sources/AppKit"
   s.osx.exclude_files = "Sources/UIKit"
+  s.watchos.exclude_files = ["Sources/UIKit", "Sources/AppKit", "Sources/CALayer.swift", "Sources/NSLayoutConstraint.swift", "Sources/ObservableArray.swift", "Sources/Observable2DArray.swift"]
+
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
   s.requires_arc = true
 
   s.dependency 'ReactiveKit', '~> 3.1'
