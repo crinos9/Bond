@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Bond"
-  s.version      = "4.3.0"
+  s.version      = "4.3.2"
   s.summary      = "A Swift binding framework"
 
   s.description  = <<-DESC
@@ -19,12 +19,15 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
   s.tvos.deployment_target = '9.0'
-  s.source       = { :git => "https://github.com/SwiftBond/Bond.git", :tag => "v4.3.0" }
-  s.source_files  = ["Bond", "Bond/Core", "Bond/Extensions/Shared", "Bond/Extensions/OSX", "Bond/Extensions/iOS"]
+  s.watchos.deployment_target = '2.0'
+  s.source       = { :git => "https://github.com/SwiftBond/Bond.git", :tag => "v4.3.1" }
+  s.source_files  = ["Bond", "Bond/Core", "Bond/Extensions/Shared", "Bond/Extensions/OSX", "Bond/Extensions/iOS", "Bond/Extensions/iOS+OSX"]
   s.ios.exclude_files = "Bond/Extensions/OSX"
   s.tvos.exclude_files = "Bond/Extensions/OSX"
   s.osx.exclude_files = "Bond/Extensions/iOS"
-  s.framework     = 'SystemConfiguration'
+  s.watchos.exclude_files = ["Bond/Extensions/iOS", "Bond/Extensions/OSX", "Bond/Extensions/iOS+OSX"]
+  
+
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
 

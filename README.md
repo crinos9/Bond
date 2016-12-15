@@ -7,6 +7,8 @@ Bond is a Swift binding framework that takes binding concepts to a whole new lev
 
 Bond was created with two goals in mind: simple to use and simple to understand. One might argue whether the former implies the latter, but Bond will save you some thinking because both are true in this case. Its foundation are a few simple classes - everything else is extensions and syntactic sugars.
 
+**Note: If you're looking into starting a new project with Bond, please check out [ReactiveKit](https://github.com/ReactiveKit/ReactiveKit) framework instead. ReactiveKit is Bond's successor that brings better performance, cleaner API and additional features in less lines of code.**
+
 ## What can it do?
 
 Let's say you'd like to act on a text change event of a `UITextField`. Well, you could setup 'target-action' mechanism between your object and go through all that target-action selector registration pain, or you could simply use Bond and do this:
@@ -236,6 +238,14 @@ func throttle(seconds: Queue.TimeInterval, queue: Queue) -> EventProducer<EventT
 ```
 
 Creates an event producer that forwards no more than one event in the given number of seconds.
+
+#### Debounce
+
+```swift
+func debounce(seconds: Queue.TimeInterval, queue: Queue) -> EventProducer<EventType>
+```
+
+Creates an event producer that ignores events which are followed by another event within the given number of seconds.
 
 #### Skip
 

@@ -13,8 +13,6 @@
 		03ACB50A1AB555D6001B3E64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ACB5091AB555D6001B3E64 /* Images.xcassets */; };
 		03ACB50D1AB555D6001B3E64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03ACB50B1AB555D6001B3E64 /* LaunchScreen.xib */; };
 		03ACB5231AB6C840001B3E64 /* AssertEqualForOptionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ACB5221AB6C840001B3E64 /* AssertEqualForOptionals.swift */; };
-		1607C9FF1BEF3C25001B2E35 /* CALayer+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E51B77BB1D00837A36 /* CALayer+Bond.swift */; };
-		1607CA001BEF3C2F001B2E35 /* NSLayoutConstraint+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E61B77BB1D00837A36 /* NSLayoutConstraint+Bond.swift */; };
 		1607CA061BEF407F001B2E35 /* UIActivityIndicatorView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CB1B77BB1D00837A36 /* UIActivityIndicatorView+Bond.swift */; };
 		1607CA071BEF407F001B2E35 /* UISegmentedControl+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3228A91B9F5673002BE73A /* UISegmentedControl+Bond.swift */; };
 		1607CA081BEF407F001B2E35 /* UIRefreshControl+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AE4A81B788F8B00296781 /* UIRefreshControl+Bond.swift */; };
@@ -55,6 +53,49 @@
 		900BFC161ADFCC00002B4B6E /* NSStatusBarButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BFC151ADFCC00002B4B6E /* NSStatusBarButtonTests.swift */; };
 		900BFC181ADFCCEE002B4B6E /* NSTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BFC171ADFCCEE002B4B6E /* NSTextFieldTests.swift */; };
 		900BFC1A1ADFCD63002B4B6E /* NSTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BFC191ADFCD63002B4B6E /* NSTextViewTests.swift */; };
+		94BF33641D215AD9006A8B53 /* CALayer+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF33621D215AD9006A8B53 /* CALayer+Bond.swift */; };
+		94BF33651D215AD9006A8B53 /* NSLayoutConstraint+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF33631D215AD9006A8B53 /* NSLayoutConstraint+Bond.swift */; };
+		94C616041D5AF7AD00DA0C6F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68BF1B77BB1D00837A36 /* Observable.swift */; };
+		94C616051D5AF7AD00DA0C6F /* UILabel+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D21B77BB1D00837A36 /* UILabel+Bond.swift */; };
+		94C616061D5AF7AD00DA0C6F /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68C21B77BB1D00837A36 /* OptionalType.swift */; };
+		94C616071D5AF7AD00DA0C6F /* UIRefreshControl+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AE4A81B788F8B00296781 /* UIRefreshControl+Bond.swift */; };
+		94C616081D5AF7AD00DA0C6F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68C11B77BB1D00837A36 /* Operators.swift */; };
+		94C616091D5AF7AD00DA0C6F /* UITableView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D71B77BB1D00837A36 /* UITableView+Bond.swift */; };
+		94C6160A1D5AF7AD00DA0C6F /* SimpleDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA7254F1BB983A0003A4ABA /* SimpleDiff.swift */; };
+		94C6160B1D5AF7AD00DA0C6F /* EventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0075B21B90D39500249C31 /* EventProducer.swift */; };
+		94C6160C1D5AF7AD00DA0C6F /* UISegmentedControl+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3228A91B9F5673002BE73A /* UISegmentedControl+Bond.swift */; };
+		94C6160D1D5AF7AD00DA0C6F /* NSObject+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E91B77BB1D00837A36 /* NSObject+Bond.swift */; };
+		94C6160E1D5AF7AD00DA0C6F /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68B81B77BB1D00837A36 /* BindableType.swift */; };
+		94C6160F1D5AF7AD00DA0C6F /* NSLock+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E71B77BB1D00837A36 /* NSLock+Bond.swift */; };
+		94C616101D5AF7AD00DA0C6F /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68C41B77BB1D00837A36 /* Queue.swift */; };
+		94C616111D5AF7AD00DA0C6F /* UINavigationBar+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25268F1BDA63E7003CEACA /* UINavigationBar+Bond.swift */; };
+		94C616121D5AF7AD00DA0C6F /* UICollectionView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CE1B77BB1D00837A36 /* UICollectionView+Bond.swift */; };
+		94C616131D5AF7AD00DA0C6F /* UITextView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D91B77BB1D00837A36 /* UITextView+Bond.swift */; };
+		94C616141D5AF7AD00DA0C6F /* UIImageView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D11B77BB1D00837A36 /* UIImageView+Bond.swift */; };
+		94C616151D5AF7AD00DA0C6F /* MutableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160FA2DD1BFD1A5E00D09C00 /* MutableObservable.swift */; };
+		94C616161D5AF7AD00DA0C6F /* UISwitch+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D61B77BB1D00837A36 /* UISwitch+Bond.swift */; };
+		94C616171D5AF7AD00DA0C6F /* UISlider+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D51B77BB1D00837A36 /* UISlider+Bond.swift */; };
+		94C616181D5AF7AD00DA0C6F /* EventProducerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68C01B77BB1D00837A36 /* EventProducerType.swift */; };
+		94C616191D5AF7AD00DA0C6F /* UIControl+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CF1B77BB1D00837A36 /* UIControl+Bond.swift */; };
+		94C6161A1D5AF7AD00DA0C6F /* UIDatePicker+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D01B77BB1D00837A36 /* UIDatePicker+Bond.swift */; };
+		94C6161B1D5AF7AD00DA0C6F /* UINavigationItem+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D31B77BB1D00837A36 /* UINavigationItem+Bond.swift */; };
+		94C6161C1D5AF7AD00DA0C6F /* NSIndexSet+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795D4C181B8F05C9001B80B0 /* NSIndexSet+Bond.swift */; };
+		94C6161D1D5AF7AD00DA0C6F /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68BB1B77BB1D00837A36 /* Disposable.swift */; };
+		94C6161E1D5AF7AD00DA0C6F /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68B91B77BB1D00837A36 /* Buffer.swift */; };
+		94C6161F1D5AF7AD00DA0C6F /* ObservableArrayEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68C81B77BB1D00837A36 /* ObservableArrayEvent.swift */; };
+		94C616201D5AF7AD00DA0C6F /* NSLayoutConstraint+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF33631D215AD9006A8B53 /* NSLayoutConstraint+Bond.swift */; };
+		94C616211D5AF7AD00DA0C6F /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68C51B77BB1D00837A36 /* Reference.swift */; };
+		94C616221D5AF7AD00DA0C6F /* UIProgressView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D41B77BB1D00837A36 /* UIProgressView+Bond.swift */; };
+		94C616231D5AF7AD00DA0C6F /* UITextField+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D81B77BB1D00837A36 /* UITextField+Bond.swift */; };
+		94C616241D5AF7AD00DA0C6F /* UIButton+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CD1B77BB1D00837A36 /* UIButton+Bond.swift */; };
+		94C616251D5AF7AD00DA0C6F /* ObservableArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68C71B77BB1D00837A36 /* ObservableArray.swift */; };
+		94C616261D5AF7AD00DA0C6F /* UIActivityIndicatorView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CB1B77BB1D00837A36 /* UIActivityIndicatorView+Bond.swift */; };
+		94C616271D5AF7AD00DA0C6F /* NSNotificationCenter+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E81B77BB1D00837A36 /* NSNotificationCenter+Bond.swift */; };
+		94C616281D5AF7AD00DA0C6F /* DisposableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68BC1B77BB1D00837A36 /* DisposableType.swift */; };
+		94C616291D5AF7AD00DA0C6F /* UIBarItem+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CC1B77BB1D00837A36 /* UIBarItem+Bond.swift */; };
+		94C6162A1D5AF7AD00DA0C6F /* UIView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68DA1B77BB1D00837A36 /* UIView+Bond.swift */; };
+		94C6162B1D5AF7AD00DA0C6F /* CALayer+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF33621D215AD9006A8B53 /* CALayer+Bond.swift */; };
+		94C6162E1D5AF7AD00DA0C6F /* Bond.h in Headers */ = {isa = PBXBuildFile; fileRef = 69491BB31A7C217100A13B6B /* Bond.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5616D751BD8A2230016CCB4 /* EventProducerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68C01B77BB1D00837A36 /* EventProducerType.swift */; };
 		B5616D761BD8A2230016CCB4 /* EventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0075B21B90D39500249C31 /* EventProducer.swift */; };
 		B5616D771BD8A2230016CCB4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68BF1B77BB1D00837A36 /* Observable.swift */; };
@@ -88,8 +129,6 @@
 		EC0075B71B90DC2100249C31 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68BF1B77BB1D00837A36 /* Observable.swift */; };
 		EC0075B91B90E4DC00249C31 /* NSObject+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E91B77BB1D00837A36 /* NSObject+Bond.swift */; };
 		EC0075BA1B90E55400249C31 /* NSNotificationCenter+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E81B77BB1D00837A36 /* NSNotificationCenter+Bond.swift */; };
-		EC0075BB1B90E56D00249C31 /* NSLayoutConstraint+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E61B77BB1D00837A36 /* NSLayoutConstraint+Bond.swift */; };
-		EC0075BC1B90E57300249C31 /* CALayer+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E51B77BB1D00837A36 /* CALayer+Bond.swift */; };
 		EC0075CF1B90E5F400249C31 /* UIActivityIndicatorView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CB1B77BB1D00837A36 /* UIActivityIndicatorView+Bond.swift */; };
 		EC0075D01B90E5F400249C31 /* UIRefreshControl+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AE4A81B788F8B00296781 /* UIRefreshControl+Bond.swift */; };
 		EC0075D11B90E5F400249C31 /* UIBarItem+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CC1B77BB1D00837A36 /* UIBarItem+Bond.swift */; };
@@ -145,8 +184,6 @@
 		ECAD69381B77BB1D00837A36 /* NSStatusBarButton+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E11B77BB1D00837A36 /* NSStatusBarButton+Bond.swift */; };
 		ECAD693A1B77BB1D00837A36 /* NSTextField+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E21B77BB1D00837A36 /* NSTextField+Bond.swift */; };
 		ECAD693C1B77BB1D00837A36 /* NSTextView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E31B77BB1D00837A36 /* NSTextView+Bond.swift */; };
-		ECAD693E1B77BB1D00837A36 /* CALayer+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E51B77BB1D00837A36 /* CALayer+Bond.swift */; };
-		ECAD69401B77BB1D00837A36 /* NSLayoutConstraint+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E61B77BB1D00837A36 /* NSLayoutConstraint+Bond.swift */; };
 		ECAD69441B77BB1D00837A36 /* NSNotificationCenter+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E81B77BB1D00837A36 /* NSNotificationCenter+Bond.swift */; };
 		ECAD69461B77BB1D00837A36 /* NSObject+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68E91B77BB1D00837A36 /* NSObject+Bond.swift */; };
 		ECAD695B1B77C7B700837A36 /* CALayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BFC061ADFC5D5002B4B6E /* CALayerTests.swift */; };
@@ -241,6 +278,10 @@
 		900BFC151ADFCC00002B4B6E /* NSStatusBarButtonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStatusBarButtonTests.swift; sourceTree = "<group>"; };
 		900BFC171ADFCCEE002B4B6E /* NSTextFieldTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTextFieldTests.swift; sourceTree = "<group>"; };
 		900BFC191ADFCD63002B4B6E /* NSTextViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTextViewTests.swift; sourceTree = "<group>"; };
+		94BF33621D215AD9006A8B53 /* CALayer+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CALayer+Bond.swift"; path = "iOS+OSX/CALayer+Bond.swift"; sourceTree = "<group>"; };
+		94BF33631D215AD9006A8B53 /* NSLayoutConstraint+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Bond.swift"; path = "iOS+OSX/NSLayoutConstraint+Bond.swift"; sourceTree = "<group>"; };
+		94C616331D5AF7AD00DA0C6F /* BondWatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BondWatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C616341D5AF7AD00DA0C6F /* Bond copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Bond copy-Info.plist"; path = "/Users/martinpinka/Documents/pod/Bond/Bond copy-Info.plist"; sourceTree = "<absolute>"; };
 		B5616DBB1BD8A39E0016CCB4 /* tvOSAppForTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSAppForTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5616DBD1BD8A39E0016CCB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5616DBF1BD8A39E0016CCB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -294,8 +335,6 @@
 		ECAD68E11B77BB1D00837A36 /* NSStatusBarButton+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSStatusBarButton+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68E21B77BB1D00837A36 /* NSTextField+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextField+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68E31B77BB1D00837A36 /* NSTextView+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextView+Bond.swift"; sourceTree = "<group>"; };
-		ECAD68E51B77BB1D00837A36 /* CALayer+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Bond.swift"; sourceTree = "<group>"; };
-		ECAD68E61B77BB1D00837A36 /* NSLayoutConstraint+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68E71B77BB1D00837A36 /* NSLock+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLock+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68E81B77BB1D00837A36 /* NSNotificationCenter+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotificationCenter+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68E91B77BB1D00837A36 /* NSObject+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Bond.swift"; sourceTree = "<group>"; };
@@ -347,6 +386,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				69491BBA1A7C217100A13B6B /* Bond.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C6162C1D5AF7AD00DA0C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +477,7 @@
 				03ACB5151AB555D6001B3E64 /* iOSAppForTestingTests */,
 				B5616DBC1BD8A39E0016CCB4 /* tvOSAppForTesting */,
 				69491BAF1A7C217100A13B6B /* Products */,
+				94C616341D5AF7AD00DA0C6F /* Bond copy-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -447,6 +494,7 @@
 				03ACB4FE1AB555D6001B3E64 /* iOSAppForTesting.app */,
 				B56989C21BD8A00C00927A6B /* Bond.framework */,
 				B5616DBB1BD8A39E0016CCB4 /* tvOSAppForTesting.app */,
+				94C616331D5AF7AD00DA0C6F /* BondWatchOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -518,6 +566,15 @@
 			name = Shared;
 			sourceTree = "<group>";
 		};
+		94BF33611D215A0E006A8B53 /* iOS+OSX */ = {
+			isa = PBXGroup;
+			children = (
+				94BF33621D215AD9006A8B53 /* CALayer+Bond.swift */,
+				94BF33631D215AD9006A8B53 /* NSLayoutConstraint+Bond.swift */,
+			);
+			name = "iOS+OSX";
+			sourceTree = "<group>";
+		};
 		B5616DBC1BD8A39E0016CCB4 /* tvOSAppForTesting */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,6 +612,7 @@
 		ECAD68C91B77BB1D00837A36 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				94BF33611D215A0E006A8B53 /* iOS+OSX */,
 				ECAD68CA1B77BB1D00837A36 /* iOS */,
 				ECAD68DB1B77BB1D00837A36 /* OSX */,
 				ECAD68E41B77BB1D00837A36 /* Shared */,
@@ -608,9 +666,7 @@
 		ECAD68E41B77BB1D00837A36 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				ECAD68E51B77BB1D00837A36 /* CALayer+Bond.swift */,
 				795D4C181B8F05C9001B80B0 /* NSIndexSet+Bond.swift */,
-				ECAD68E61B77BB1D00837A36 /* NSLayoutConstraint+Bond.swift */,
 				ECAD68E71B77BB1D00837A36 /* NSLock+Bond.swift */,
 				ECAD68E81B77BB1D00837A36 /* NSNotificationCenter+Bond.swift */,
 				ECAD68E91B77BB1D00837A36 /* NSObject+Bond.swift */,
@@ -665,6 +721,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				69491BB41A7C217100A13B6B /* Bond.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C6162D1D5AF7AD00DA0C6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C6162E1D5AF7AD00DA0C6F /* Bond.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,6 +803,24 @@
 			productName = BondTests;
 			productReference = 69491BB91A7C217100A13B6B /* BondTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94C616021D5AF7AD00DA0C6F /* BondWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C616301D5AF7AD00DA0C6F /* Build configuration list for PBXNativeTarget "BondWatchOS" */;
+			buildPhases = (
+				94C616031D5AF7AD00DA0C6F /* Sources */,
+				94C6162C1D5AF7AD00DA0C6F /* Frameworks */,
+				94C6162D1D5AF7AD00DA0C6F /* Headers */,
+				94C6162F1D5AF7AD00DA0C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BondWatchOS;
+			productName = Bond;
+			productReference = 94C616331D5AF7AD00DA0C6F /* BondWatchOS.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		B5616DBA1BD8A39E0016CCB4 /* tvOSAppForTesting */ = {
 			isa = PBXNativeTarget;
@@ -865,6 +947,7 @@
 				03ACB4FD1AB555D6001B3E64 /* iOSAppForTesting */,
 				B56989C11BD8A00C00927A6B /* BondtvOS */,
 				B5616DBA1BD8A39E0016CCB4 /* tvOSAppForTesting */,
+				94C616021D5AF7AD00DA0C6F /* BondWatchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -888,6 +971,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		69491BB71A7C217100A13B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C6162F1D5AF7AD00DA0C6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -968,6 +1058,7 @@
 				ECAD68F11B77BB1D00837A36 /* Disposable.swift in Sources */,
 				ECAD68ED1B77BB1D00837A36 /* Buffer.swift in Sources */,
 				ECAD690B1B77BB1D00837A36 /* ObservableArrayEvent.swift in Sources */,
+				94BF33651D215AD9006A8B53 /* NSLayoutConstraint+Bond.swift in Sources */,
 				ECAD69051B77BB1D00837A36 /* Reference.swift in Sources */,
 				EC0075D91B90E5F400249C31 /* UIProgressView+Bond.swift in Sources */,
 				EC0075DD1B90E5F400249C31 /* UITextField+Bond.swift in Sources */,
@@ -976,10 +1067,9 @@
 				EC0075CF1B90E5F400249C31 /* UIActivityIndicatorView+Bond.swift in Sources */,
 				EC0075BA1B90E55400249C31 /* NSNotificationCenter+Bond.swift in Sources */,
 				ECAD68F31B77BB1D00837A36 /* DisposableType.swift in Sources */,
-				EC0075BC1B90E57300249C31 /* CALayer+Bond.swift in Sources */,
-				EC0075BB1B90E56D00249C31 /* NSLayoutConstraint+Bond.swift in Sources */,
 				EC0075D11B90E5F400249C31 /* UIBarItem+Bond.swift in Sources */,
 				EC0075DF1B90E5F400249C31 /* UIView+Bond.swift in Sources */,
+				94BF33641D215AD9006A8B53 /* CALayer+Bond.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,6 +1109,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94C616031D5AF7AD00DA0C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C616041D5AF7AD00DA0C6F /* Observable.swift in Sources */,
+				94C616051D5AF7AD00DA0C6F /* UILabel+Bond.swift in Sources */,
+				94C616061D5AF7AD00DA0C6F /* OptionalType.swift in Sources */,
+				94C616071D5AF7AD00DA0C6F /* UIRefreshControl+Bond.swift in Sources */,
+				94C616081D5AF7AD00DA0C6F /* Operators.swift in Sources */,
+				94C616091D5AF7AD00DA0C6F /* UITableView+Bond.swift in Sources */,
+				94C6160A1D5AF7AD00DA0C6F /* SimpleDiff.swift in Sources */,
+				94C6160B1D5AF7AD00DA0C6F /* EventProducer.swift in Sources */,
+				94C6160C1D5AF7AD00DA0C6F /* UISegmentedControl+Bond.swift in Sources */,
+				94C6160D1D5AF7AD00DA0C6F /* NSObject+Bond.swift in Sources */,
+				94C6160E1D5AF7AD00DA0C6F /* BindableType.swift in Sources */,
+				94C6160F1D5AF7AD00DA0C6F /* NSLock+Bond.swift in Sources */,
+				94C616101D5AF7AD00DA0C6F /* Queue.swift in Sources */,
+				94C616111D5AF7AD00DA0C6F /* UINavigationBar+Bond.swift in Sources */,
+				94C616121D5AF7AD00DA0C6F /* UICollectionView+Bond.swift in Sources */,
+				94C616131D5AF7AD00DA0C6F /* UITextView+Bond.swift in Sources */,
+				94C616141D5AF7AD00DA0C6F /* UIImageView+Bond.swift in Sources */,
+				94C616151D5AF7AD00DA0C6F /* MutableObservable.swift in Sources */,
+				94C616161D5AF7AD00DA0C6F /* UISwitch+Bond.swift in Sources */,
+				94C616171D5AF7AD00DA0C6F /* UISlider+Bond.swift in Sources */,
+				94C616181D5AF7AD00DA0C6F /* EventProducerType.swift in Sources */,
+				94C616191D5AF7AD00DA0C6F /* UIControl+Bond.swift in Sources */,
+				94C6161A1D5AF7AD00DA0C6F /* UIDatePicker+Bond.swift in Sources */,
+				94C6161B1D5AF7AD00DA0C6F /* UINavigationItem+Bond.swift in Sources */,
+				94C6161C1D5AF7AD00DA0C6F /* NSIndexSet+Bond.swift in Sources */,
+				94C6161D1D5AF7AD00DA0C6F /* Disposable.swift in Sources */,
+				94C6161E1D5AF7AD00DA0C6F /* Buffer.swift in Sources */,
+				94C6161F1D5AF7AD00DA0C6F /* ObservableArrayEvent.swift in Sources */,
+				94C616201D5AF7AD00DA0C6F /* NSLayoutConstraint+Bond.swift in Sources */,
+				94C616211D5AF7AD00DA0C6F /* Reference.swift in Sources */,
+				94C616221D5AF7AD00DA0C6F /* UIProgressView+Bond.swift in Sources */,
+				94C616231D5AF7AD00DA0C6F /* UITextField+Bond.swift in Sources */,
+				94C616241D5AF7AD00DA0C6F /* UIButton+Bond.swift in Sources */,
+				94C616251D5AF7AD00DA0C6F /* ObservableArray.swift in Sources */,
+				94C616261D5AF7AD00DA0C6F /* UIActivityIndicatorView+Bond.swift in Sources */,
+				94C616271D5AF7AD00DA0C6F /* NSNotificationCenter+Bond.swift in Sources */,
+				94C616281D5AF7AD00DA0C6F /* DisposableType.swift in Sources */,
+				94C616291D5AF7AD00DA0C6F /* UIBarItem+Bond.swift in Sources */,
+				94C6162A1D5AF7AD00DA0C6F /* UIView+Bond.swift in Sources */,
+				94C6162B1D5AF7AD00DA0C6F /* CALayer+Bond.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5616DB71BD8A39E0016CCB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1040,12 +1177,10 @@
 				B5616D991BD8A2DF0016CCB4 /* NSLock+Bond.swift in Sources */,
 				B5616D981BD8A2C00016CCB4 /* NSObject+Bond.swift in Sources */,
 				1607CA061BEF407F001B2E35 /* UIActivityIndicatorView+Bond.swift in Sources */,
-				1607CA001BEF3C2F001B2E35 /* NSLayoutConstraint+Bond.swift in Sources */,
 				B5616D751BD8A2230016CCB4 /* EventProducerType.swift in Sources */,
 				1607CA091BEF407F001B2E35 /* UIBarItem+Bond.swift in Sources */,
 				B5616D761BD8A2230016CCB4 /* EventProducer.swift in Sources */,
 				1607CA0F1BEF407F001B2E35 /* UILabel+Bond.swift in Sources */,
-				1607C9FF1BEF3C25001B2E35 /* CALayer+Bond.swift in Sources */,
 				1607CA181BEF407F001B2E35 /* UIView+Bond.swift in Sources */,
 				B5616D771BD8A2230016CCB4 /* Observable.swift in Sources */,
 				B5616D781BD8A2230016CCB4 /* ObservableArray.swift in Sources */,
@@ -1092,7 +1227,6 @@
 				ECAD69381B77BB1D00837A36 /* NSStatusBarButton+Bond.swift in Sources */,
 				ECAD68FC1B77BB1D00837A36 /* EventProducerType.swift in Sources */,
 				ECBF04E11B810100001F6BCA /* NSLock+Bond.swift in Sources */,
-				ECAD693E1B77BB1D00837A36 /* CALayer+Bond.swift in Sources */,
 				ECAD69321B77BB1D00837A36 /* NSControl+Bond.swift in Sources */,
 				ECAD69461B77BB1D00837A36 /* NSObject+Bond.swift in Sources */,
 				EC0075E01B90E6C800249C31 /* Observable.swift in Sources */,
@@ -1107,7 +1241,6 @@
 				ECAD68F41B77BB1D00837A36 /* DisposableType.swift in Sources */,
 				795D4C1A1B8F05C9001B80B0 /* NSIndexSet+Bond.swift in Sources */,
 				ECAD69301B77BB1D00837A36 /* NSColorWell+Bond.swift in Sources */,
-				ECAD69401B77BB1D00837A36 /* NSLayoutConstraint+Bond.swift in Sources */,
 				ECAD693A1B77BB1D00837A36 /* NSTextField+Bond.swift in Sources */,
 				ECAD692E1B77BB1D00837A36 /* NSButton+Bond.swift in Sources */,
 			);
@@ -1369,6 +1502,38 @@
 			};
 			name = Release;
 		};
+		94C616311D5AF7AD00DA0C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Bond copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swift.bond.BondWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94C616321D5AF7AD00DA0C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Bond copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swift.bond.BondWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B5616DC81BD8A39E0016CCB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1566,6 +1731,15 @@
 			buildConfigurations = (
 				69491BC81A7C217100A13B6B /* Debug */,
 				69491BC91A7C217100A13B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C616301D5AF7AD00DA0C6F /* Build configuration list for PBXNativeTarget "BondWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C616311D5AF7AD00DA0C6F /* Debug */,
+				94C616321D5AF7AD00DA0C6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
