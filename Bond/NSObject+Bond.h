@@ -22,8 +22,13 @@
 //  THE SOFTWARE.
 //
 
+#ifndef Bond_NSObject_h
+#define Bond_NSObject_h
+
 #import <Foundation/Foundation.h>
 
 @interface NSObject (Bond)
 - (void)_bnd_dealloc;
 @end
+
+#endif

@@ -22,6 +22,9 @@
 //  THE SOFTWARE.
 //
 
+#ifndef BNDProtocolProxyBase_h
+#define BNDProtocolProxyBase_h
+
 #import <Foundation/Foundation.h>
 
 @interface BNDProtocolProxyBase : NSObject
@@ -36,3 +39,5 @@
 - (void)invokeWithSelector:(nonnull SEL)selector argumentExtractor:(void (^_Nonnull)(NSInteger index, void * _Nullable buffer))argumentExtractor setReturnValue:(void (^_Nullable)(void * _Nullable buffer))setReturnValue;
 
 @end
+
+#endif
