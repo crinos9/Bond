@@ -24,7 +24,7 @@
 
 import UIKit
 import ReactiveKit
-
+/*
 public extension UITableView {
 
   public var bnd_delegate: ProtocolProxy {
@@ -163,4 +163,4 @@ public extension SignalProtocol where Element: DataSourceEventProtocol, Error ==
     
     return serialDisposable
   }
-}
+}*/

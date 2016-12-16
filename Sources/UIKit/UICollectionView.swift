@@ -24,7 +24,7 @@
 
 import UIKit
 import ReactiveKit
-
+/*
 public protocol CollectionViewBond {
   associatedtype DataSource: DataSourceProtocol
   func cellForRow(at indexPath: IndexPath, collectionView: UICollectionView, dataSource: DataSource) -> UICollectionViewCell
@@ -142,4 +142,4 @@ public extension SignalProtocol where Element: DataSourceEventProtocol, Error ==
     
     return serialDisposable
   }
-}
+}*/
